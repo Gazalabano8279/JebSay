@@ -1,0 +1,45 @@
+# Environment files and local credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*firebase-adminsdk*.json
+*service-account*.json
+*serviceAccount*.json
+
+# There is no root package.json; use frontend/package-lock.json.
+/package-lock.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Frontend
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Editors and operating systems
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and local databases
+*.log
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
